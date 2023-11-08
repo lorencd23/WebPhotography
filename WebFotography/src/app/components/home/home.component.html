@@ -1,0 +1,47 @@
+<!-- carrusel de fotos --><!-- 
+<div id="carouselExampleCaptions" class="carousel slide">
+      <ng-container *ngFor="let pic of listPics; let i = index">
+            <div class="carousel-inner">
+              <div class="carousel-item" [class.active] = "i === 0 ">
+                <img [src]="pic.url" class="d-block w-100" [alt]="pic.id">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>{{ pic.desc }}</h5>
+                  <p>{{ pic.camera }}</p>
+                </div>
+              </div>
+            </div>
+      </ng-container>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+</div> -->
+
+<!-- NATURALEZA APART -->
+<div id="bigFrame" class="container" (click)="listarImagenes('Nature')">
+  <img src="https://i.postimg.cc/Hkt4ggtg/100-4235.png">
+  <h1 class="align-middle" id="Nature">Naturaleza</h1>
+<!--   <div class="row row-cols-2" *ngFor="let pic of listPics; let i = index">
+    <img [src]="pic.url" class="col" [alt]="pic.id">
+    <h5 class="col">{{ pic.desc }}</h5>
+    <p class="col">{{ pic.camera }}</p>
+  </div> -->
+</div>
+
+<!-- ARQUITECTURA APART -->
+<div id="bigFrame" class="container" (click)="listarImagenes('Architecture')">
+  <img src="https://i.postimg.cc/mZKVcbJG/PICT5515.jpg">
+  <h1 class="align-middle" id="Architecture">Arquitectura</h1>
+</div>
+
+<!-- RETRATOS APART -->
+<div id="bigFrame" class="container" (click)="listarImagenes('Portrait')">
+  <img src="https://i.postimg.cc/bYx6DGcf/22-A-00277.jpg">
+  <h1 class="align-middle" id="Portrait">Retratos</h1>
+</div>
+
+

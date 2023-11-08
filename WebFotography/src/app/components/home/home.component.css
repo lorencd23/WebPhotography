@@ -1,0 +1,62 @@
+/* span {
+      background-color: black;
+      border-radius: 100%;
+}
+
+.carousel-item{
+      height: 40vh;
+} */
+
+#bigFrame {
+      /* background: url('https://i.postimg.cc/Hkt4ggtg/100-4235.png'); 
+      background-repeat: no-repeat;
+      background-size: cover; */
+      margin-top: 50px;
+      margin-bottom: 50px;
+      width: auto;
+      height: 70vh;
+      padding: 0%;
+      border-radius: 20px;
+      /* transition: transform .35s; */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden;
+}
+
+#bigFrame #Nature{
+      color: aliceblue;
+      position: absolute;
+      top: 47%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+}
+#bigFrame #Architecture{
+      color: aliceblue;
+      position: absolute;
+      top: 122%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+}
+
+#bigFrame #Portrait{
+      color: aliceblue;
+      position: absolute;
+      top: 199%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+}
+
+#bigFrame img {
+      width: 100%;
+      transition: 0.5s all ease-in-out;
+}
+
+#bigFrame:hover img{
+      transform: scale(1.2);
+      cursor: pointer;
+}
+
+#bigFrame:hover h1{
+      cursor: pointer;
+}

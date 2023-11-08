@@ -1,0 +1,12 @@
+<div class="container text-center mt-3">
+      <div class="row align-items-start">
+        <div class="col" *ngFor="let pic of listPics; let i = index">
+            <div *ngIf="pic.apart == [apart]">
+                  <img [src]="pic.url"  [alt]="pic.id">
+                  <h5 class="mt-2"><b>"{{ pic.desc }}"</b></h5>
+                  <p class="mb-0">{{ pic.camera }}</p>
+                  <p>{{ pic.lens }}</p>
+            </div>
+        </div>
+      </div>
+</div>
