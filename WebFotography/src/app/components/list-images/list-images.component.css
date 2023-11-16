@@ -1,0 +1,12 @@
+.container {
+      margin-top: 80px;
+}
+
+.material-symbols-outlined {
+	font-size:80px;
+	color:#071218;
+	cursor:pointer;
+	position: fixed;
+	bottom:20px;
+	right:20px;
+}

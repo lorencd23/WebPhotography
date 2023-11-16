@@ -1,4 +1,12 @@
 .navbar {
       font-size: 30px;
       background-color: rgb(7, 18, 24);
+      position: fixed;
+      width: 100%;
+      top: 0;
+      z-index: 100;
+}
+
+span:hover {
+      cursor: pointer;
 }

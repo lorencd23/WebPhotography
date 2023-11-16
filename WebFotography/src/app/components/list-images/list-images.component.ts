@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, HostListener } from '@angular/core';
 import { PicsService } from '../services/pics.service';
 import { Subscription } from 'rxjs';
 import { ActivatedRoute } from '@angular/router';
@@ -13,7 +13,7 @@ export class ListImagesComponent {
   suscription: Subscription;
   listPics: any[] = [];
   apart: string;
-
+  
   constructor(private _picsService: PicsService, private route: ActivatedRoute){
     this.apart = route.snapshot.paramMap.get('valor')!;
     console.log(this.apart);
@@ -30,6 +30,13 @@ export class ListImagesComponent {
       this._picsService.setError('Ups, ocurrió un error XO');
     })
 
+  }
+
+  goToTop() {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth' // Desplazamiento suave hacia arriba
+    });
   }
 
 }
