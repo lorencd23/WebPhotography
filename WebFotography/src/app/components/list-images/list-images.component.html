@@ -4,8 +4,8 @@
             <div *ngIf="pic.apart == [apart]">
                   <img [src]="pic.url"  [alt]="pic.id">
                   <h5 class="mt-2"><b>"{{ pic.desc }}"</b></h5>
-                  <p class="mb-0">{{ pic.camera }}</p>
-                  <p>{{ pic.lens }}</p>
+                  <p [ngClass]="{'mb-3': !pic.lens, 'mb-0': pic.lens}">Cámara: {{ pic.camera }}</p>
+                  <p *ngIf="pic.lens">Lente: {{ pic.lens }}</p>
             </div>
         </div>
       </div>
