@@ -1,13 +1,13 @@
-<div class="container text-center">
+<div class="container-fluid d-flex flex-column text-center">
       <div class="row align-items-start">
-        <div class="col" *ngFor="let pic of listPics; let i = index">
-            <div *ngIf="pic.apart == [apart]">
-                  <img [src]="pic.url"  [alt]="pic.id">
-                  <h5 class="mt-2"><b>"{{ pic.desc }}"</b></h5>
-                  <p [ngClass]="{'mb-3': !pic.lens, 'mb-0': pic.lens}">Cámara: {{ pic.camera }}</p>
-                  <p *ngIf="pic.lens">Lente: {{ pic.lens }}</p>
+            <div class="col" *ngFor="let pic of listPics; let i = index">
+                  <div *ngIf="pic.apart == [apart]">
+                        <img [src]="pic.url"  [alt]="pic.id">
+                        <h5 class="mt-2"><b>"{{ pic.desc }}"</b></h5>
+                        <p [ngClass]="{'mb-3': !pic.lens, 'mb-0': pic.lens}">Cámara: {{ pic.camera }}</p>
+                        <p *ngIf="pic.lens">Lente: {{ pic.lens }}</p>
+                  </div>
             </div>
-        </div>
       </div>
 </div>
 

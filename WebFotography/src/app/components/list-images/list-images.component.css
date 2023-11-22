@@ -1,4 +1,4 @@
-.container {
+.container-fluid {
       margin-top: 80px;
 }
 
@@ -9,4 +9,39 @@
 	position: fixed;
 	bottom:20px;
 	right:20px;
+}
+
+@media only screen and (width < 1100px) {
+	.col img{
+		height: 70vh;
+	}
+}
+
+@media only screen and (width < 938px) {
+	.col img{
+		height: 60vh;
+	}
+}
+
+@media only screen and (width <= 450px) {
+	.col img{
+		height: 32vh;
+	}
+
+	.col h5{
+		font-size: medium;
+	}
+
+	.col p {
+		font-size: small;
+	}
+
+	.material-symbols-outlined {
+		font-size: 40px;
+		color:#071218;
+		cursor:pointer;
+		position: fixed;
+		bottom:20px;
+		right:20px;
+	}
 }
