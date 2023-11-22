@@ -1,64 +1,71 @@
-#bigFrame1 {
-      margin-top: 80px;
-      width: auto;
-      height: 70vh;
-      padding: 0%;
-      border-radius: 20px;
-      text-align: center;
-      overflow: hidden;
-}
-
-#bigFrame {
+.bigFrame {
       margin-top: 5%;
       width: auto;
-      height: 70vh;
+      height: 60vh;
       padding: 0%;
       border-radius: 20px;
       text-align: center;
       overflow: hidden;
 }
 
-#bigFrame1 #Nature{
-      margin-top: -45%;
+.bigFrame:first-child {
+      margin-top: 80px;
+}
+
+#Nature {
+      position: relative;
+      left: 50%;
+      transform: translate(-50%, -150%);
+      color: aliceblue;
+}
+#Architecture {
+      position: relative;
+      left: 50%;
+      transform: translate(-50%, 70%);
+      color: aliceblue;
+}
+#Portrait {
+      position: relative;
+      left: 50%;
+      transform: translate(-50%, 70%);
       color: aliceblue;
 }
 
-#bigFrame #Architecture {
+.bigFrame h1:first-of-type {
       margin-top: -45%;
-      color: aliceblue;
 }
 
-#bigFrame #Portrait{
-      margin-top: -45%;
-      color: aliceblue;
-}
-
-#bigFrame1 img {
-      z-index: 0;
+.bigFrame img {
       width: 100%;
       transition: 0.5s all ease-in-out;
 }
 
-#bigFrame1:hover img{
+.bigFrame:hover img{
       transform: scale(1.2);
       cursor: pointer;
 }
 
-#bigFrame1:hover h1{
-      z-index: 100;
+.bigFrame:hover h1{
       cursor: pointer;
 }
 
-#bigFrame img {
-      width: 100%;
-      transition: 0.5s all ease-in-out;
+@media only screen and (width < 912px ) {
+      .bigFrame {
+            max-height: 30vh;
+      }
 }
 
-#bigFrame:hover img{
-      transform: scale(1.2);
-      cursor: pointer;
-}
+@media only screen and (width < 780px) {
+      #Nature{
+            transform: translate(-50%, -10%);
+      }
 
-#bigFrame:hover h1{
-      cursor: pointer;
+      .bigFrame {
+            max-width: 90%;
+      }
+
+      .bigFrame.bigFrame:first-child {
+            max-height: 29.5vh;
+      }
+
 }
