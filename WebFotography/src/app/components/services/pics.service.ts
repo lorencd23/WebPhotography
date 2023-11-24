@@ -34,7 +34,7 @@ export class PicsService {
       }
 
       getImagenesByApart(apart: string): Observable<any> {
-        const URL = 'https://us-central1-idk-lgm.cloudfunctions.net/app/api/pics' + apart;
+        const URL = 'https://us-central1-idk-lgm.cloudfunctions.net/app/api/pics/getByApart/' + apart;
         return this.http.get(URL);
       }
     
