@@ -1,6 +1,6 @@
 [
       {
-            "id": 1,
+            "id": "1",
             "desc": "Puesta de Sol en Bielsa",
             "camera": "Kodak Easyshare",
             "lens": "",
@@ -8,7 +8,7 @@
             "apart": "Nature"
       },
       {
-            "id": 2,
+            "id": "2",
             "desc": "Flores en flor",
             "camera": "Kodak Easyshare",
             "lens": "",
@@ -16,7 +16,7 @@
             "apart": "Nature"
       },
       {
-            "id": 3,
+            "id": "3",
             "desc": "Pequeño arroyo",
             "camera": "Kodak Easyshare",
             "lens": "",
@@ -24,7 +24,7 @@
             "apart": "Nature"
       },
       {
-            "id": 4,
+            "id": "4",
             "desc": "Gran cascada",
             "camera": "Kodak Easyshare",
             "lens": "",
@@ -32,7 +32,7 @@
             "apart": "Nature"
       },
       {
-            "id": 5,
+            "id": "5",
             "desc": "Aún más pequeño arroyo",
             "camera": "Kodak Easyshare",
             "lens": "",
@@ -40,7 +40,7 @@
             "apart": "Nature"
       },
       {
-            "id": 6,
+            "id": "6",
             "desc": "Perdidos en el bosque",
             "camera": "Kodak Easyshare",
             "lens": "",
@@ -48,7 +48,7 @@
             "apart": "Nature"
       },
       {
-            "id": 7,
+            "id": "7",
             "desc": "Lago de Bielsa",
             "camera": "Kodak Easyshare",
             "lens": "",
@@ -56,7 +56,7 @@
             "apart": "Nature"
       },
       {
-            "id": 8,
+            "id": "8",
             "desc": "Bosque mágico",
             "camera": "Kodak Easyshare",
             "lens": "",
@@ -64,7 +64,7 @@
             "apart": "Nature"
       },
       {
-            "id": 9,
+            "id": "9",
             "desc": "Sigue el camino",
             "camera": "Kodak Easyshare",
             "lens": "",
@@ -72,7 +72,7 @@
             "apart": "Nature"
       },
       {
-            "id": 10,
+            "id": "10",
             "desc": "Se nos marcha la luz",
             "camera": "Kodak Easyshare",
             "lens": "",
@@ -80,7 +80,7 @@
             "apart": "Nature"
       },
       {
-            "id": 11,
+            "id": "11",
             "desc": "Valle de Pineta",
             "camera": "Kodak Easyshare",
             "lens": "",
@@ -88,7 +88,7 @@
             "apart": "Nature"
       },
       {
-            "id": 12,
+            "id": "12",
             "desc": "Allá vamos",
             "camera": "Kodak Easyshare",
             "lens": "",
@@ -96,7 +96,7 @@
             "apart": "Nature"
       },
       {
-            "id": 13,
+            "id": "13",
             "desc": "Mañana pasada por niebla",
             "camera": "Kodak Easyshare",
             "lens": "",
@@ -104,7 +104,7 @@
             "apart": "Nature"
       },
       {
-            "id": 14,
+            "id": "14",
             "desc": "Ribera verde",
             "camera": "Kodak Easyshare",
             "lens": "",
@@ -112,7 +112,7 @@
             "apart": "Nature"
       },
       {
-            "id": 15,
+            "id": "15",
             "desc": "Tocadas por la luz",
             "camera": "Kodak Easyshare",
             "lens": "",
@@ -120,7 +120,7 @@
             "apart": "Nature"
       },
       {
-            "id": 16,
+            "id": "16",
             "desc": "Expo Zaragoza",
             "camera": "Praktica super tl 1000",
             "lens": "Pentacon 50mm f1.8",
@@ -128,7 +128,7 @@
             "apart": "Architecture"
       },
       {
-            "id": 17,
+            "id": "17",
             "desc": "Torre del agua",
             "camera": "Kodak Easyshare",
             "lens": "",
@@ -136,7 +136,7 @@
             "apart": "Architecture"
       },
       {
-            "id": 18,
+            "id": "18",
             "desc": "El Pilar marca el lugar",
             "camera": "Kodak Easyshare",
             "lens": "",
@@ -144,7 +144,7 @@
             "apart": "Architecture"
       },
       {
-            "id": 19,
+            "id": "19",
             "desc": "El Pilar",
             "camera": "Kodak Easyshare",
             "lens": "",
@@ -152,7 +152,7 @@
             "apart": "Architecture"
       },
       {
-            "id": 20,
+            "id": "20",
             "desc": "Puente de Piedra camino a La Seo",
             "camera": "Kodak Easyshare",
             "lens": "",
@@ -160,7 +160,7 @@
             "apart": "Architecture"
       },
       {
-            "id": 21,
+            "id": "21",
             "desc": "La Seo",
             "camera": "Kodak Easyshare",
             "lens": "",
@@ -168,7 +168,7 @@
             "apart": "Architecture"
       },
       {
-            "id": 22,
+            "id": "22",
             "desc": "Edificio tímido",
             "camera": "Praktica super tl 1000",
             "lens": "Pentacon 50mm f1.8",
@@ -176,7 +176,7 @@
             "apart": "Architecture"
       },
       {
-            "id": 23,
+            "id": "23",
             "desc": "El Pilar vintage edition",
             "camera": "Praktica super tl 1000",
             "lens": "Pentacon 50mm f1.8",
@@ -184,7 +184,7 @@
             "apart": "Architecture"
       },
       {
-            "id": 24,
+            "id": "24",
             "desc": "La torre del agua desde el parque del agua",
             "camera": "Praktica super tl 1000",
             "lens": "Pentacon 50mm f1.8",
@@ -192,7 +192,7 @@
             "apart": "Architecture"
       },
       {
-            "id": 25,
+            "id": "25",
             "desc": "Mi gata",
             "camera": "Praktica super tl 1000",
             "lens": "Pentacon 50mm f1.8",
@@ -200,7 +200,7 @@
             "apart": "Portrait"
       },
       {
-            "id": 26,
+            "id": "26",
             "desc": "Mi gata, si, otra vez",
             "camera": "Praktica super tl 1000",
             "lens": "Pentacon 50mm f1.8",
@@ -208,7 +208,7 @@
             "apart": "Portrait"
       },
       {
-            "id": 27,
+            "id": "27",
             "desc": "Mi reflejo",
             "camera": "Praktica super tl 1000",
             "lens": "Pentacon 50mm f1.8",
@@ -216,7 +216,7 @@
             "apart": "Portrait"
       },
       {
-            "id": 28,
+            "id": "28",
             "desc": "Mi gata, si, otra vez 2",
             "camera": "Kodak Easyshare",
             "lens": "",
@@ -224,7 +224,7 @@
             "apart": "Portrait"
       },
       {
-            "id": 29,
+            "id": "29",
             "desc": "Foco solitario",
             "camera": "Kodak Easyshare",
             "lens": "",
@@ -232,7 +232,7 @@
             "apart": "Architecture"
       },
       {
-            "id": 30,
+            "id": "30",
             "desc": "Luz bajo el puente",
             "camera": "Kodak Easyshare",
             "lens": "",
@@ -240,7 +240,7 @@
             "apart": "Architecture"
       },
       {
-            "id": 31,
+            "id": "31",
             "desc": "De chill",
             "camera": "Praktica super tl 1000",
             "lens": "Pentacon 50mm f1.8",

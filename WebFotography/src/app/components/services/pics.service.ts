@@ -29,12 +29,12 @@ export class PicsService {
       }
     
       getImagenes(): Observable<any> {
-        const URL = 'http://localhost:8080/api/pics';
+        const URL = 'https://us-central1-idk-lgm.cloudfunctions.net/app/api/pics';
         return this.http.get(URL);
       }
 
       getImagenesByApart(apart: string): Observable<any> {
-        const URL = 'http://localhost:8080/api/pics/' + apart;
+        const URL = 'https://us-central1-idk-lgm.cloudfunctions.net/app/api/pics' + apart;
         return this.http.get(URL);
       }
     

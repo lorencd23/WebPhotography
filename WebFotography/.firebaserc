@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "idk-lgm"
+  },
+  "targets": {
+    "idk-lgm": {
+      "hosting": {
+        "WebFotography": [
+          "idk-lgm"
+        ]
+      }
+    }
+  }
+}
