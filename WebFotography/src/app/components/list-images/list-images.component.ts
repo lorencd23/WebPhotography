@@ -13,6 +13,7 @@ export class ListImagesComponent {
   suscription: Subscription;
   listPics: any[] = [];
   apart: string;
+  selectedPic: any = {};
   
   constructor(private _picsService: PicsService, private route: ActivatedRoute){
     this.apart = route.snapshot.paramMap.get('valor')!;
@@ -37,6 +38,11 @@ export class ListImagesComponent {
       top: 0,
       behavior: 'smooth' // Desplazamiento suave hacia arriba
     });
+  }
+
+  showImage(image: any){
+    console.log(image);
+    this.selectedPic = image;
   }
 
 }

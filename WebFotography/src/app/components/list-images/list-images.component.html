@@ -2,7 +2,7 @@
       <div class="row align-items-start">
             <div class="col" *ngFor="let pic of listPics; let i = index">
                   <div *ngIf="pic.apart == [apart]">
-                        <img [src]="pic.url"  [alt]="pic.id">
+                        <img [src]="pic.url"  [alt]="pic.id" (click)="showImage(pic)" data-bs-toggle="modal" data-bs-target="#imageModal">
                         <h5 class="mt-2"><b>"{{ pic.desc }}"</b></h5>
                         <p [ngClass]="{'mb-3': !pic.lens, 'mb-0': pic.lens}">Cámara: {{ pic.camera }}</p>
                         <p *ngIf="pic.lens">Lente: {{ pic.lens }}</p>
@@ -14,3 +14,18 @@
 <span class="material-symbols-outlined" (click)="goToTop()">
       expand_circle_up
 </span>
+
+<div class="modal fade" id="imageModal" tabindex="-1" aria-labelledby="imageModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-xl modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                  <h5 class="mt-2"><b>"{{ selectedPic.desc }}"</b></h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                  <img [src]="selectedPic.url" [alt]="selectedPic.id">
+            </div>
+        </div>
+      </div>
+</div>
+
